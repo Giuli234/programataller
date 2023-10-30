@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #e81313;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.game-section {
+    margin-top: 50px;
+    border: 1px solid #3808d8;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.game-title {
+    font-size: 24px;
+    color: #000000;
+}
+
+.game-description {
+    margin-top: 10px;
+    color: #666;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.external-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.external-link:before {
+    content: "🔗 ";
+}
+
+.external-link:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+    margin: 0;
+    padding-left: 20px;
+    border-left: 5px solid #e84242;
+    color: #10bf41;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+.search-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search-input {
+    padding: 5px;
+    width: 300px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+body {
+    background-image: url(/imagen/assassins.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* Estilos generales */
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+  /* Estilos para secciones de juegos */
+/*.game-section {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.game-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.game-description {
+    margin-top: 10px;
+    color: #666;
+}
+
+  /* Estilos para enlaces */
+/*a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+  /* Estilos para enlaces de fuentes externas */
+/*.external-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.external-link:before {
+    content: "🔗 ";
+}
+
+.external-link:hover {
+    text-decoration: underline;
+}
+
+  /* Estilos para citas */
+/*blockquote {
+    margin: 0;
+    padding-left: 20px;
+    border-left: 5px solid #ccc;
+    color: #666;
+}
+
+/* Estilos para imágenes */
+/*img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.game-section {
+    margin-top: 50px;
+}
+
+.game-title {
+    font-size: 24px;
+}
+
+.game-description {
+    margin-top: 10px;
+}
+/*h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .game-section {
+    margin-top: 50px;
+  }
+  
+  .game-title {
+    font-size: 24px;
+  }
+  
+  .game-description {
+    margin-top: 10px;
+  }
